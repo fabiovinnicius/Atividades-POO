@@ -1,4 +1,3 @@
-// Balao.java
 public class Balao extends TransporteAereo {
     private String tipoGasLargada;
 
@@ -9,7 +8,7 @@ public class Balao extends TransporteAereo {
 
     @Override
     public boolean estaParado() {
-        return velocidadeActual == 0; // Balão pode estar parado no ar
+        return velocidadeActual == 0; 
     }
 
     @Override
@@ -25,7 +24,6 @@ public class Balao extends TransporteAereo {
         System.out.println("Balão descendo " + metros + " metros. Altitude atual: " + this.altitudeActual + "m.");
     }
 
-    // Getter and Setter
     public String getTipoGasLargada() {
         return tipoGasLargada;
     }

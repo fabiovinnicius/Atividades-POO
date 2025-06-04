@@ -1,4 +1,3 @@
-// Transporte.java
 public abstract class Transporte {
     protected String nome;
     protected int passageirosMax;
@@ -12,7 +11,6 @@ public abstract class Transporte {
         this.velocidadeActual = velocidadeActual;
     }
 
-    // Getters and Setters (optional, but good practice)
     public String getNome() {
         return nome;
     }

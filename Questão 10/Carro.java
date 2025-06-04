@@ -1,4 +1,3 @@
-// Carro.java
 public class Carro extends TransporteTerrestre implements Motorizado, Conduzivel {
     private int numeroCilindrada;
 
@@ -36,7 +35,6 @@ public class Carro extends TransporteTerrestre implements Motorizado, Conduzivel
         System.out.println("Carro curvando em um ângulo de " + angulo + " graus.");
     }
 
-    // Getter and Setter
     public int getNumeroCilindrada() {
         return numeroCilindrada;
     }

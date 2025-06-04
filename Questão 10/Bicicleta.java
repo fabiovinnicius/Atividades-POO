@@ -1,4 +1,3 @@
-// Bicicleta.java
 public class Bicicleta extends TransporteTerrestre implements Conduzivel {
     private int numeroRodas;
 
@@ -26,7 +25,6 @@ public class Bicicleta extends TransporteTerrestre implements Conduzivel {
         System.out.println("Bicicleta curvando em um ângulo de " + angulo + " graus.");
     }
 
-    // Getter and Setter
     public int getNumeroRodas() {
         return numeroRodas;
     }

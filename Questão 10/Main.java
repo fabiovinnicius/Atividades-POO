@@ -1,4 +1,3 @@
-// Main.java
 public class Main {
     public static void main(String[] args) {
         System.out.println("--- Testando Implementação da Interface Motorizado ---");
@@ -10,7 +9,7 @@ public class Main {
         meuAviao.ligarMotor();
         meuAviao.abastecer(5000);
         System.out.println("Avião parado? " + meuAviao.estaParado());
-        meuAviao.setVelocidadeActual(0); // Simulating stop
+        meuAviao.setVelocidadeActual(0); 
         meuAviao.setAltitudeActual(0);
         System.out.println("Avião parado agora? " + meuAviao.estaParado());
 
@@ -19,7 +18,7 @@ public class Main {
         meuCarro.ligarMotor();
         meuCarro.abastecer(50);
         System.out.println("Carro parado? " + meuCarro.estaParado());
-        meuCarro.setVelocidadeActual(0); // Simulating stop
+        meuCarro.setVelocidadeActual(0); 
         System.out.println("Carro parado agora? " + meuCarro.estaParado());
 
 
@@ -51,15 +50,15 @@ public class Main {
 
 
         System.out.println("\nCarro:");
-        meuCarro.setVelocidadeActual(0); // Ensure it's stopped for parking
+        meuCarro.setVelocidadeActual(0); 
         meuCarro.estacionar();
         meuCarro.setVelocidadeActual(30);
-        meuCarro.estacionar(); // Should not park if not stopped
+        meuCarro.estacionar(); 
 
         System.out.println("\nBicicleta:");
-        minhaBicicleta.setVelocidadeActual(0); // Ensure it's stopped for parking
+        minhaBicicleta.setVelocidadeActual(0);
         minhaBicicleta.estacionar();
         minhaBicicleta.setVelocidadeActual(5);
-        minhaBicicleta.estacionar(); // Should not park if not stopped
+        minhaBicicleta.estacionar();
     }
 }

@@ -1,4 +1,3 @@
-// TransporteAereo.java
 public abstract class TransporteAereo extends Transporte {
     protected int altitudeActual;
 
@@ -10,7 +9,6 @@ public abstract class TransporteAereo extends Transporte {
     public abstract void subir(int metros);
     public abstract void descer(int metros);
 
-    // Getter and Setter
     public int getAltitudeActual() {
         return altitudeActual;
     }

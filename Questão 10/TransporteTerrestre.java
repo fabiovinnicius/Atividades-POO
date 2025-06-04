@@ -1,4 +1,3 @@
-// TransporteTerrestre.java
 public abstract class TransporteTerrestre extends Transporte {
     protected String tipo;
 
@@ -9,7 +8,6 @@ public abstract class TransporteTerrestre extends Transporte {
 
     public abstract void estacionar();
 
-    // Getter and Setter
     public String getTipo() {
         return tipo;
     }

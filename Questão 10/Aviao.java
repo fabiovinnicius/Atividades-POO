@@ -1,4 +1,3 @@
-// Aviao.java
 public class Aviao extends TransporteAereo implements Motorizado, Conduzivel {
     private int numeroMotores;
 
@@ -21,7 +20,7 @@ public class Aviao extends TransporteAereo implements Motorizado, Conduzivel {
     @Override
     public void descer(int metros) {
         this.altitudeActual -= metros;
-        if (this.altitudeActual < 0) this.altitudeActual = 0; // Cannot go below 0 altitude
+        if (this.altitudeActual < 0) this.altitudeActual = 0;
         System.out.println("Avião descendo " + metros + " metros. Altitude atual: " + this.altitudeActual + "m.");
     }
 
@@ -40,7 +39,6 @@ public class Aviao extends TransporteAereo implements Motorizado, Conduzivel {
         System.out.println("Avião curvando em um ângulo de " + angulo + " graus.");
     }
 
-    // Getter and Setter
     public int getNumeroMotores() {
         return numeroMotores;
     }
