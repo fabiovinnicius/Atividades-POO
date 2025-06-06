@@ -1,0 +1,17 @@
+public void nomeMetodo(Tipo... nomeParametro) {
+}
+-Exemplo
+public class ExemploVarargs {
+public static void imprimirNomes(String... nomes) {
+for (String nome : nomes) {
+System.out.println(nome);
+}
+}
+public static void main(String[] args) {
+imprimirNomes("Ana", "Bruno", "Carlos");
+System.out.println("---");
+imprimirNomes("Diana");
+System.out.println("---");
+imprimirNomes();
+}
+}
